@@ -6,7 +6,7 @@
 1）准备阶段：
 在Windows电脑安装Python后，安装pandas模块(pip install pandas) 访问文件夹C:\Users\用户名\AppData\Roaming\SharpCap\AnnotationCatalogs，如果没有则创建文件夹，然后将以下文件复制进来： 
     - asteroids.txt，SkyChart保存"观测列表"，更新RA和DEC 
-    - asteroid5000_convert.py，转换工具 
+    - asteroid_convert.py，转换工具 
     - asteroid_for_sharpcap.csv，SharpCap能识别的自定义星表，每次运行py后会覆盖此文件 
  
 2）定期更新SkyChart小行星数据更新 
@@ -21,7 +21,7 @@
     - 点击Update coordinates，更新坐标 
     - 点击保存，txt文件被更新 
 
-4）运行asteroid5000_convert.py 
+4）运行asteroid_convert.py 
     - 生成或覆盖asteroid_for_sharpcap.csv，里面是SharpCap可识别的结构
 
 5）运行SharpCap（需要Pro版本，安装许可证序列号） 
